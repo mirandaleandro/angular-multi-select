@@ -33,7 +33,7 @@
 
 'use strict'
 
-angular.module('ui.select', ['ng']).directive('crmMultiSelect', ['$sce', '$timeout', '$templateCache', '$compile', function ($sce, $timeout, $templateCache, $compile) {
+angular.module('ui.select', ['ng']).directive('coMultiSelect', ['$sce', '$timeout', '$templateCache', '$compile', function ($sce, $timeout, $templateCache, $compile) {
     return {
         restrict: 'AE',
 
