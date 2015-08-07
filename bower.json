@@ -1,18 +1,30 @@
 {
-    "name"      : "isteven-angular-multiselect",
-    "version"   : "v4.0.0",
-    "main"      : [
-        "isteven-multi-select.js",
-        "isteven-multi-select.css"
-    ],
-    "ignore"    : [
-        ".git",
-        ".gitignore",
-        "bower.json",
-        "CHANGELOG.md",
-        "package.json",
-        "README.md",        
-        "screenshot.png",
-        "/doc"
-    ]
+  "name": "dealersocket-angular-multiselect",
+  "version": "0.0.1",
+  "main": "multi-select.js",
+  "ignore": [
+    ".git",
+    ".gitignore",
+    "bower.json",
+    "CHANGELOG.md",
+    "package.json",
+    "README.md",
+    "screenshot.png",
+    "/doc",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/bradenedmunds/angular-multi-select",
+  "authors": [
+    "Braden Edmunds <bedmunds@dealersocket.com>"
+  ],
+  "description": "AngularJS multi/single select dropdown",
+  "keywords": [
+    "AngularJS",
+    "multi-select"
+  ],
+  "license": "MIT"
 }
