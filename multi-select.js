@@ -1013,10 +1013,10 @@ angular.module('ui.select', ['ng']).directive('coMultiSelect', ['$sce', '$timeou
     }
 }]).run(['$templateCache', function ($templateCache) {
     var template =
-        '<div class="multiSelect inlineBlock">' +
+        '<div class="multiSelect inlineBlock" ng-click="toggleCheckboxes( $event ); refreshSelectedItems(); refreshButton(); prepareGrouping(); prepareIndex();"' > +
             // main button
-        '<div class="form-group form-group-no-padding transparent-input-group"><input class="form-control" ng-class="open ? \'ws-dropdown ws-dropdown-open\' : \'ws-dropdown\'"' +
-        'ng-click="toggleCheckboxes( $event ); refreshSelectedItems(); refreshButton(); prepareGrouping(); prepareIndex();"' +
+            '<div class="form-group form-group-no-padding transparent-input-group">' +
+        '<input class="form-control" ng-class="open ? \'ws-dropdown ws-dropdown-open\' : \'ws-dropdown\'"' +
         'ng-model="varButtonLabel" ' +
         'readonly/>' +
         '<span class="input-group-addon ws-dropdown-caret">' +
