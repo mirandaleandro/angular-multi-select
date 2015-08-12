@@ -1,6 +1,6 @@
 {
-  "name": "dealersocket-angularjs-multiselect",
-  "version": "v0.0.2",
+  "name": "common-angularjs-multiselect",
+  "version": "v0.1.0",
   "main": [
     "multi-select.js"
   ],
@@ -19,9 +19,9 @@
     "test",
     "tests"
   ],
-  "homepage": "https://github.com/bradenedmunds/angular-multi-select",
+  "homepage": "https://github.com/mirandaleandro/angular-multi-select",
   "authors": [
-    "Braden Edmunds <bedmunds@dealersocket.com>"
+    "Braden Edmunds <bedmunds@dealersocket.com>, Leandro Miranda <lmiranda@dealersocket.com>"
   ],
   "license": "MIT"
 }
