@@ -1031,7 +1031,7 @@ angular.module('ui.select', ['ng']).directive('coMultiSelect', ['$sce', '$timeou
         '<div class="line" ng-if="helperStatus.all || helperStatus.none || helperStatus.reset ">' +
             // select all
         '<div class="row row-no-padding">' +
-        '<div class="col-sm-6">' +
+        '<div class="col-xs-6">' +
         '<button type="button" class="btn btn-default"' +
         'ng-disabled="isDisabled"' +
         'ng-if="helperStatus.all"' +
@@ -1039,7 +1039,7 @@ angular.module('ui.select', ['ng']).directive('coMultiSelect', ['$sce', '$timeou
         'ng-bind-html="lang.selectAll">' +
         '</button></div>' +
             // select none
-        '<div class="col-sm-6">' +
+        '<div class="col-xs-6">' +
         '<button type="button" class="btn btn-default"' +
         'ng-disabled="isDisabled"' +
         'ng-if="helperStatus.none"' +
